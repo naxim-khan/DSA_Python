@@ -1,0 +1,19 @@
+Node: 
+A node is a fundamental building block that contains two main components:
+Data: This is the actual information or value that the node holds.
+Pointer/Reference: This is a reference to te next node in the sequence.
+(in the case of link list) or to the child nodes (in the case of a tree).
+Example:
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next_node = None
+
+In this example, the Node class has a constructor 
+(__init__) that takes the data as a parameter and 
+initializes the next_node to None. This allows you 
+to create a linked list by connecting nodes together
+through their next_node references.
+
+==========================================================
+
